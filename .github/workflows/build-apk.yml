@@ -23,7 +23,7 @@ jobs:
 
       - name: Unpack project
         run: |
-          unzip -o slovo-android-project.zip -d project
+          unzip -o slovo-github-apk-project.zip -d project
           find project -name gradlew -exec chmod +x {} \;
 
       - name: Build APK
