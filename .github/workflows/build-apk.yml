@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'slovo-android-project.zip'
+      - 'slovo-github-apk-project.zip'
       - '.github/workflows/build-apk.yml'
 
 jobs:
